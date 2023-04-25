@@ -1,0 +1,21 @@
+{
+  "name": "nft-smart-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@openzeppelin/contracts": "^4.8.3",
+    "base64-sol": "^1.1.0",
+    "hardhat": "^2.14.0"
+  },
+  "dependencies": {
+    "uuidv4": "^6.2.13"
+  }
+}
