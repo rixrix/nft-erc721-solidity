@@ -8,8 +8,8 @@ const { ethers } = require("hardhat");
 
 async function main() {
   const RixToken = await ethers.getContractFactory("NFT");
-  console.log('Deploying RixToken ERC721 token...');
-  const token = await RixToken.deploy('RixToken','Rx');
+  console.log("Deploying RixToken ERC721 token...");
+  const token = await RixToken.deploy("RixToken", "Rx");
 
   await token.deployed();
 
